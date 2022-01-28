@@ -1,0 +1,96 @@
+23-Jan-2022 23:25:00.937 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/10.0.16
+23-Jan-2022 23:25:00.940 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Jan 15 2022 13:19:56 UTC
+23-Jan-2022 23:25:00.940 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 10.0.16.0
+23-Jan-2022 23:25:00.940 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Mac OS X
+23-Jan-2022 23:25:00.940 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            11.6
+23-Jan-2022 23:25:00.940 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           aarch64
+23-Jan-2022 23:25:00.940 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+23-Jan-2022 23:25:00.940 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           17.0.2+8-LTS
+23-Jan-2022 23:25:00.940 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Azul Systems, Inc.
+23-Jan-2022 23:25:00.940 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            /Users/asari/apache-tomcat-10.0.16
+23-Jan-2022 23:25:00.940 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            /Users/asari/apache-tomcat-10.0.16
+23-Jan-2022 23:25:01.007 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Jan-2022 23:25:01.007 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+23-Jan-2022 23:25:01.007 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+23-Jan-2022 23:25:01.007 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Jan-2022 23:25:01.007 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Jan-2022 23:25:01.007 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=/Users/asari/apache-tomcat-10.0.16/conf/logging.properties
+23-Jan-2022 23:25:01.007 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Jan-2022 23:25:01.007 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+23-Jan-2022 23:25:01.007 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Jan-2022 23:25:01.007 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-Jan-2022 23:25:01.007 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+23-Jan-2022 23:25:01.008 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=/Users/asari/apache-tomcat-10.0.16
+23-Jan-2022 23:25:01.008 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=/Users/asari/apache-tomcat-10.0.16
+23-Jan-2022 23:25:01.008 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=/Users/asari/apache-tomcat-10.0.16/temp
+23-Jan-2022 23:25:01.013 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/Users/asari/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.] に存在しません。
+23-Jan-2022 23:25:01.138 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+23-Jan-2022 23:25:01.180 情報 [main] org.apache.catalina.startup.Catalina.load サーバーの初期化 [332]ms
+23-Jan-2022 23:25:01.195 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+23-Jan-2022 23:25:01.196 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/10.0.16]
+23-Jan-2022 23:25:01.199 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/docs] を配備します
+23-Jan-2022 23:25:01.297 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/docs] の Web アプリケーションの配備は [98] ms で完了しました。
+23-Jan-2022 23:25:01.297 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/manager] を配備します
+23-Jan-2022 23:25:01.311 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/manager] の Web アプリケーションの配備は [14] ms で完了しました。
+23-Jan-2022 23:25:01.311 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/examples] を配備します
+23-Jan-2022 23:25:01.408 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/examples] の Web アプリケーションの配備は [97] ms で完了しました。
+23-Jan-2022 23:25:01.409 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/ROOT] を配備します
+23-Jan-2022 23:25:01.416 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/ROOT] の Web アプリケーションの配備は [6] ms で完了しました。
+23-Jan-2022 23:25:01.416 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/host-manager] を配備します
+23-Jan-2022 23:25:01.425 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/host-manager] の Web アプリケーションの配備は [8] ms で完了しました。
+23-Jan-2022 23:25:01.426 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8080"] を開始しました。
+23-Jan-2022 23:25:01.432 情報 [main] org.apache.catalina.startup.Catalina.start サーバーの起動 [252]ms
+23-Jan-2022 23:25:29.475 情報 [main] org.apache.catalina.core.StandardServer.await 有効なシャットダウンコマンドがシャットダウンポート経由で受信されました。 サーバーインスタンスを停止します。
+23-Jan-2022 23:25:29.476 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+23-Jan-2022 23:25:29.478 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+23-Jan-2022 23:25:29.494 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+23-Jan-2022 23:25:29.504 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
+23-Jan-2022 23:38:44.632 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名:     Apache Tomcat/10.0.16
+23-Jan-2022 23:38:44.634 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:            Jan 15 2022 13:19:56 UTC
+23-Jan-2022 23:38:44.634 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号: 10.0.16.0
+23-Jan-2022 23:38:44.634 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:                    Mac OS X
+23-Jan-2022 23:38:44.634 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            11.6
+23-Jan-2022 23:38:44.634 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:           aarch64
+23-Jan-2022 23:38:44.634 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+23-Jan-2022 23:38:44.634 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           17.0.2+8-LTS
+23-Jan-2022 23:38:44.634 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ:               Azul Systems, Inc.
+23-Jan-2022 23:38:44.635 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:            /Users/asari/apache-tomcat-10.0.16
+23-Jan-2022 23:38:44.635 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:            /Users/asari/apache-tomcat-10.0.16
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.config.file=/Users/asari/apache-tomcat-10.0.16/conf/logging.properties
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djdk.tls.ephemeralDHKeySize=2048
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dignore.endorsed.dirs=
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.base=/Users/asari/apache-tomcat-10.0.16
+23-Jan-2022 23:38:44.642 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Dcatalina.home=/Users/asari/apache-tomcat-10.0.16
+23-Jan-2022 23:38:44.643 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数:       -Djava.io.tmpdir=/Users/asari/apache-tomcat-10.0.16/temp
+23-Jan-2022 23:38:44.646 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/Users/asari/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.] に存在しません。
+23-Jan-2022 23:38:44.771 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+23-Jan-2022 23:38:44.787 情報 [main] org.apache.catalina.startup.Catalina.load サーバーの初期化 [249]ms
+23-Jan-2022 23:38:44.803 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+23-Jan-2022 23:38:44.803 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/10.0.16]
+23-Jan-2022 23:38:44.806 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/docs] を配備します
+23-Jan-2022 23:38:44.904 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/docs] の Web アプリケーションの配備は [97] ms で完了しました。
+23-Jan-2022 23:38:44.904 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/manager] を配備します
+23-Jan-2022 23:38:44.919 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/manager] の Web アプリケーションの配備は [15] ms で完了しました。
+23-Jan-2022 23:38:44.919 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/examples] を配備します
+23-Jan-2022 23:38:45.017 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/examples] の Web アプリケーションの配備は [97] ms で完了しました。
+23-Jan-2022 23:38:45.017 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/ROOT] を配備します
+23-Jan-2022 23:38:45.024 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/ROOT] の Web アプリケーションの配備は [7] ms で完了しました。
+23-Jan-2022 23:38:45.024 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/portfolio] を配備します
+23-Jan-2022 23:38:45.033 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/portfolio] の Web アプリケーションの配備は [9] ms で完了しました。
+23-Jan-2022 23:38:45.033 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/host-manager] を配備します
+23-Jan-2022 23:38:45.042 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/asari/apache-tomcat-10.0.16/webapps/host-manager] の Web アプリケーションの配備は [9] ms で完了しました。
+23-Jan-2022 23:38:45.043 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8080"] を開始しました。
+23-Jan-2022 23:38:45.050 情報 [main] org.apache.catalina.startup.Catalina.start サーバーの起動 [262]ms
+23-Jan-2022 23:49:01.267 情報 [main] org.apache.catalina.core.StandardServer.await 有効なシャットダウンコマンドがシャットダウンポート経由で受信されました。 サーバーインスタンスを停止します。
+23-Jan-2022 23:49:01.269 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+23-Jan-2022 23:49:01.272 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+23-Jan-2022 23:49:01.288 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+23-Jan-2022 23:49:01.298 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。

@@ -1,0 +1,135 @@
+28-Jan-2022 11:38:42.793 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+28-Jan-2022 11:38:42.793 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+28-Jan-2022 11:38:42.793 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@39dcf4b0')
+28-Jan-2022 11:49:54.340 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+28-Jan-2022 11:49:54.340 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+28-Jan-2022 11:49:57.496 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+28-Jan-2022 11:49:57.496 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+28-Jan-2022 11:49:57.496 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6e4de19b')
+28-Jan-2022 12:51:32.579 重大 [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke パス [/portfolio] を持つコンテキスト内のサーブレット [jsp] のServlet.service() が例外 [JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/index.jsp] の中の [24] 行目でエラーが発生しました
+page cannot be resolved to a type
+21:   <link rel=”canonical” href=”URLが入る” />
+22:   <link rel="stylesheet" type="text/css" href="css/5-6.css">
+23:   <!-- <link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/css/style.css"> -->
+24:   <% @ page contentType="text/html; charset=UTF-8" %>
+25:   
+26: </head>
+27: 
+
+
+JSPファイル: [/index.jsp] の中の [24] 行目でエラーが発生しました
+Syntax error on token "contentType", VariableDeclaratorId expected after this token
+21:   <link rel=”canonical” href=”URLが入る” />
+22:   <link rel="stylesheet" type="text/css" href="css/5-6.css">
+23:   <!-- <link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/css/style.css"> -->
+24:   <% @ page contentType="text/html; charset=UTF-8" %>
+25:   
+26: </head>
+27: 
+
+
+JSPファイル: [/index.jsp] の中の [24] 行目でエラーが発生しました
+contentType cannot be resolved to a type
+21:   <link rel=”canonical” href=”URLが入る” />
+22:   <link rel="stylesheet" type="text/css" href="css/5-6.css">
+23:   <!-- <link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/css/style.css"> -->
+24:   <% @ page contentType="text/html; charset=UTF-8" %>
+25:   
+26: </head>
+27: 
+
+
+JSPファイル: [/index.jsp] の中の [24] 行目でエラーが発生しました
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+21:   <link rel=”canonical” href=”URLが入る” />
+22:   <link rel="stylesheet" type="text/css" href="css/5-6.css">
+23:   <!-- <link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/css/style.css"> -->
+24:   <% @ page contentType="text/html; charset=UTF-8" %>
+25:   
+26: </head>
+27: 
+
+
+Stacktrace:] が根本的要因と共に投げられました
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/index.jsp] の中の [24] 行目でエラーが発生しました
+page cannot be resolved to a type
+21:   <link rel=”canonical” href=”URLが入る” />
+22:   <link rel="stylesheet" type="text/css" href="css/5-6.css">
+23:   <!-- <link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/css/style.css"> -->
+24:   <% @ page contentType="text/html; charset=UTF-8" %>
+25:   
+26: </head>
+27: 
+
+
+JSPファイル: [/index.jsp] の中の [24] 行目でエラーが発生しました
+Syntax error on token "contentType", VariableDeclaratorId expected after this token
+21:   <link rel=”canonical” href=”URLが入る” />
+22:   <link rel="stylesheet" type="text/css" href="css/5-6.css">
+23:   <!-- <link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/css/style.css"> -->
+24:   <% @ page contentType="text/html; charset=UTF-8" %>
+25:   
+26: </head>
+27: 
+
+
+JSPファイル: [/index.jsp] の中の [24] 行目でエラーが発生しました
+contentType cannot be resolved to a type
+21:   <link rel=”canonical” href=”URLが入る” />
+22:   <link rel="stylesheet" type="text/css" href="css/5-6.css">
+23:   <!-- <link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/css/style.css"> -->
+24:   <% @ page contentType="text/html; charset=UTF-8" %>
+25:   
+26: </head>
+27: 
+
+
+JSPファイル: [/index.jsp] の中の [24] 行目でエラーが発生しました
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+21:   <link rel=”canonical” href=”URLが入る” />
+22:   <link rel="stylesheet" type="text/css" href="css/5-6.css">
+23:   <!-- <link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/css/style.css"> -->
+24:   <% @ page contentType="text/html; charset=UTF-8" %>
+25:   
+26: </head>
+27: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:355)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1708)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
